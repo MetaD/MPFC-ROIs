@@ -1,6 +1,8 @@
 # MPFC-ROIs
 
-The files here were obtained by comparing the following composite terms in Neurosynth:
+The files here shows maps of the medial prefrontal cortex (MPFC) functionality, as indicated by reverse inference analyses.
+
+Theses files were obtained by comparing the following composite terms with [Neurosynth](http://neurosynth.org/) / [NeurosynthPlus](https://github.com/MetaD/neurosynthPlus):
 - Social: `(social | mentalizing)`,
 - Self: `self`,
 - Emotion: `emotion*`,
@@ -11,4 +13,4 @@ In the [maps](https://github.com/MetaD/MPFC-ROIs/tree/master/maps), the value at
 
 The [masks](https://github.com/MetaD/MPFC-ROIs/tree/master/masks) are binary masks based on the above maps. The voxels with 4 in maps are converted to 1 in masks, and everything else is converted to 0. Clusters of sizes smaller than 3 voxels are removed from these masks (i.e. converted to 0).
 
-Please see the MPFC review paper for more details. This comparison can be done with [NeurosynthPlus](https://github.com/MetaD/neurosynthPlus).
+Please see the MPFC review paper for more details.
