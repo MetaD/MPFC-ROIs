@@ -1,6 +1,6 @@
 # MPFC-ROIs
 
-The files here shows maps of the medial prefrontal cortex (MPFC) functionality, as indicated by reverse inference analyses.
+The files here show maps of the medial prefrontal cortex (MPFC) functionality, as indicated by reverse inference analyses.
 
 Theses files were obtained by comparing the following composite terms with [Neurosynth](http://neurosynth.org/) / [NeurosynthPlus](https://github.com/MetaD/neurosynthPlus):
 - Social: `(social | mentalizing)`,
