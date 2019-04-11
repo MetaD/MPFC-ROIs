@@ -13,4 +13,4 @@ In the [maps](https://github.com/MetaD/MPFC-ROIs/tree/master/maps), the value at
 
 The [masks](https://github.com/MetaD/MPFC-ROIs/tree/master/masks) are binary masks based on the above maps. The voxels with 4 in maps are converted to 1 in masks, and everything else is converted to 0. Clusters of sizes smaller than 3 voxels are removed from these masks (i.e. converted to 0).
 
-Please see the MPFC review paper for more details.
+Please see our MPFC review paper for more details: [Lieberman, M. D., Straccia, M. A., Meyer, M. L., Du, M., & Tan, K. M. (2019). *Social, Self,(Situational), and Affective Processes in Medial Prefrontal Cortex (MPFC): Causal, Multivariate, and Reverse Inference Evidence.* Neuroscience & Biobehavioral Reviews.](http://www.scn.ucla.edu/pdf/Lieberman(2019)NBR.pdf)
